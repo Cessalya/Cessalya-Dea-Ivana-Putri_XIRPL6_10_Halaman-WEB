@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Semua Produk</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    </head>
+    <body>   
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/icon.png" width="200px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="keranjang.png" width="30px" height="30px">
+                <img src="iconmenu.png" class="menu-icon" onclick="menutoggle()"> 
+            </div>
+        </div>
+    
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Semua Produk</h2>
+            <select>
+                <option>Penyortian Produk</option>
+                <option>Berdasarkan Harga</option>
+                <option>Berdasarkan Popular</option>
+                <option>Berdasarkan Rating</option>
+                <option>Berdasarkan Penjualan</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">`
+                <img src="produk2.jpg" width="400px" height="300px">
+                <h4>Bak Mandi Batu Alam</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rp.132.000</p>
+            </div>
+            <div class="col-4">`
+                <img src="produk3.jpg" width="400px" height="300px">
+                <h4>Tempat Lilin</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rp.100.000</p>
+        </div>
+        <div class="col-4">`
+            <img src="produk4.jpg" width="400px" height="300px">
+            <h4>Bingkai Foto</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rp.50.000</p>
+    </div>
+    <div class="col-4">`
+        <img src="produk5.jpg" width="400px" height="300px">
+        <h4>Air Mancur Batu Alam</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rp.250.000</p>
+        </div>
+    </div>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">`
+                <img src="produk2.jpg" width="400px" height="300px">
+                <h4>Bak Mandi Batu Alam</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rp.132.000</p>
+            </div>
+            <div class="col-4">`
+                <img src="produk3.jpg" width="400px" height="300px">
+                <h4>Tempat Lilin</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rp.100.000</p>
+        </div>
+        <div class="col-4">`
+            <img src="produk4.jpg" width="400px" height="300px">
+            <h4>Bingkai Foto</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rp.50.000</p>
+    </div>
+    <div class="col-4">`
+        <img src="produk5.jpg" width="400px" height="300px">
+        <h4>Air Mancur Batu Alam</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rp.250.000</p>
+        </div>
+        <div class="row">
+            <div class="col-4">`
+                <img src="produk2.jpg" width="400px" height="300px">
+                <h4>Bak Mandi Batu Alam</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rp.132.000</p>
+            </div>
+            <div class="col-4">`
+                <img src="produk3.jpg"width="400px" height="300px">
+                <h4>Tempat Lilin</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rp.100.000</p>
+        </div>
+        <div class="col-4">`
+            <img src="produk4.jpg"width="400px" height="300px">
+            <h4>Bingkai Foto</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Rp.50.000</p>
+    </div>
+    <div class="col-4">`
+        <img src="produk5.jpg"width="400px" height="300px">
+        <h4>Air Mancur Batu Alam</h4>
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+        <p>Rp.250.000</p>
+        </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+       
+
+<!--footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download App</h3>
+                        <p>Download App for Android and ios mobile iphone</p>
+                        <div class="app-logo">
+                            <img src="appstore.png">
+                            <img src="playstore.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <h3>Useful Link</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">copyright 2021</p>
+            </div>
+        </div>
+<!--js for toggle menu-->
+        <script>
+            var MenuItems = document.getElementById("")
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </body>
+</html>
